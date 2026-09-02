@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "authority": {
+    "paperclip": "business goals, budgets, assignments and outcome tracking",
+    "openclaw-compatible-gateway": "persistent operator interface, schedules and reusable skills",
+    "langgraph": "authoritative durable workflow state",
+    "crewai": "bounded specialist collaboration inside a workflow stage",
+    "langchain": "model, retriever and tool adapters",
+    "nvidia-nemo-agent-toolkit": "profiling, evaluation and observability",
+    "deterministic-policy-engine": "final authorization"
+  },
+  "invariant": "Only one component owns durable workflow state; language models never grant authorization."
+}

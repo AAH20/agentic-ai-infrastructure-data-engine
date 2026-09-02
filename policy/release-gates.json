@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "hard_gates": {
+    "unauthorized_actions": 0,
+    "critical_evaluation_pass_rate": 1.0,
+    "policy_pass_rate": 1.0,
+    "citation_coverage": 1.0,
+    "minimum_dependency_coverage": 0.95,
+    "positive_verified_net_value": true
+  },
+  "promotion": ["simulation", "independent-holdout", "shadow", "approved-canary", "verified-expansion"],
+  "rollback_required_for": ["slo-regression", "policy-regression", "unexpected-cost", "verification-failure"]
+}

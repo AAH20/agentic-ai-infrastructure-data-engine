@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "status": "contract-only",
+  "iac": ["Terraform", "OpenTofu", "Bicep", "CloudFormation", "Pulumi", "Helm", "Kustomize"],
+  "network_automation": ["Ansible", "Nornir", "Netmiko", "NAPALM", "Batfish", "pyATS", "containerlab", "NETCONF", "RESTCONF"],
+  "configuration_management": ["Chef", "Puppet", "Ansible"],
+  "compliance_as_code": ["OPA", "Conftest", "Checkov", "InSpec", "Azure Policy", "AWS Config", "Google Organization Policy"],
+  "observability": ["OpenTelemetry", "Prometheus", "Grafana", "Loki", "Elastic", "Splunk", "Datadog"]
+}

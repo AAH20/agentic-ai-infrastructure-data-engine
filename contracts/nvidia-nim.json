@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "status": "contract-only",
+  "interface": "OpenAI-compatible",
+  "required_endpoints": ["/v1/chat/completions", "/v1/models", "/v1/health/live", "/v1/health/ready", "/v1/metrics"],
+  "routing_constraints": ["capability", "residency", "sensitivity", "availability", "reliability", "latency", "cost"],
+  "required_telemetry": ["model_id", "tokens", "latency_ms", "queue_depth", "gpu_utilization", "cost_usd", "task_outcome"]
+}

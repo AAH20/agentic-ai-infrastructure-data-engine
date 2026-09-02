@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "facts": ["workflow", "incident", "change", "evaluation", "inference", "cost", "policy_check", "human_intervention", "business_outcome"],
+  "dimensions": ["time", "tenant", "environment", "service", "resource", "cloud", "region", "model", "tool", "agent", "control", "owner"],
+  "measures": [
+    "workflow_success_rate", "change_failure_rate", "mttd_minutes", "mttr_minutes", "mttr_reduction_rate",
+    "incident_recurrence_rate", "rollback_success_rate", "unauthorized_actions", "evaluation_pass_rate",
+    "human_interventions_per_100_workflows", "automation_containment_rate", "context_precision",
+    "citation_coverage", "dependency_coverage", "policy_pass_rate", "drift_remediation_rate",
+    "inference_cost_per_verified_workflow", "cloud_savings_identified", "cloud_savings_approved",
+    "cloud_savings_realized", "revenue_protected", "engineering_hours_saved", "verified_net_value", "roi"
+  ],
+  "evidence_rule": "Realized value requires a verified post-action measurement and must remain distinct from identified or approved opportunity."
+}
